@@ -1,0 +1,91 @@
+h1{
+    text-align: end;/*where will text appear in webpage*/
+    color:green;
+    letter-spacing: 10px;/*give spaces in text(horizontaly)*/
+    text-decoration: overline;/*line over the text*/
+}
+p{
+    color:rgb(255,255,0);/*color system( R-red G-green B-blue (RGB))*/
+}
+b{
+    color:plum;
+}
+button{
+    color:aliceblue;/* color of the txt*/
+    background-color:royalblue;
+}
+body{
+    font-weight: bold;/*font-weight are 100 to 900 liter bold bolder*/
+    background-color: gold;/*background color*/
+}
+h2{   /*element selecter*/
+    font-family:cursive;/*used to chance writting style*/
+    text-decoration: blue wavy underline;/*wavy line under text*/
+    color:brown;/*website for color palet (coolors)*/
+   
+}
+i{
+     
+        font-size: 50px;/*size of the font 96px=1 inch*/
+         color:#6633bb /*color system (Hexadecimal 16 digits)*/
+}
+#id1{  /*id selecter*/
+    text-align: center;
+    color:blue;
+     text-decoration: red line-through;/*cut the text with line with color*/
+}
+.myclass {  /*class selecter */
+    text-transform:uppercase;/*convert text in uppercase lowercase capitalize*/
+    text-align: end;
+    line-height: 1px;/*how much heigth is give to that text*/
+ color: darkcyan;
+ text-align: start;/*where will the text*/
+  text-decoration: dotted underline;/*underline the text*/
+}
+
+a{
+    height:100px;
+    text-decoration: none;/*remove the line from anchor text*/
+    color: #dd5e8e;/*anchor text always in underline*/
+    border: 5px solid red ;/*short hand for border*/
+}
+
+div{
+    height: 100px;/*size of the content box*/
+    width:100px;/*size of the content box*/
+    background-color: aqua;/*color of content box*/
+    border-style:dashed ;/*style of border*/
+    border-color:brown;/*color of border*/
+    border-width: 5px;/*size of the border*/
+    text-align: left;/*alin the text acc to block*/
+    border-radius: 10%;/*formiing the round shape in border*/
+    padding-top: 15%;/*content will be after padding*/
+    padding-left: 35px;/*content will be after padding*/
+    padding-bottom: 15%;/*content will be after padding*/
+    display: inline;/*it converts the block into inline*/
+}
+
+#box1{
+    padding-top:0;
+    padding-left:0;
+    border-radius: 0;
+    padding-bottom:0;
+    font-size: 5px;
+    display: block;
+      height: 100px;
+      width: 100px;
+}
+#box2{
+    padding-top:0;
+     padding-left:0;
+    border-radius: 0;
+    padding-bottom:0;
+    border-width:5px;
+    height:100px ;
+    width:em;
+    color: aliceblue;
+    background-color: black;
+    font-size: 3em;/*em means same as parent 8*/
+}
+
+

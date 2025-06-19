@@ -1,0 +1,21 @@
+div{
+    height: 150px;
+    width: 200px;
+    background-color: teal;
+    color: black;
+    border:2px solid black;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function:steps(5);
+    transition-delay: 2s;
+    /*transition short hand is -- property name, duration, timing function, delay*/
+    rotate: 45deg ;
+}
+div:hover{
+    background-color: coral;
+    color: darkblue;
+    font-size:20px;
+}
+div:active{
+    background-color: pink;
+}

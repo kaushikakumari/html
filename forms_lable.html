@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms_lables</title>
+    <link rel="stylesheet"href="col_backg.css"><!--linking css in html-->
+</head>
+<body>
+   <form action="action.php" ><!--creating form-->
+    <h2>Student Information</h2>
+    <input type="text"placeholder="username"><!--text will be showen-->
+    <br>
+    <br>
+    <input type="password"placeholder="password"><!--pasword will be hidden-->
+    <br>
+    <br>
+    time <input type="time"value="">
+    <br>
+    <br>
+    color<input type="color"value="">
+    <br>
+    <br>
+    date<input type="date"value="">
+    <br>
+    <br>
+    passout student 
+    <br>
+     <input type="button"value="yes">&nbsp;
+      <input type="button"value="no">
+    <br>
+    <h2> selecte your class</h2>
+    <label for="101"><!--using the we can click on the text also-->
+        <input type="radio"value="classXI"name="class"id="101">classXI<!--radio is used to create buttons-->
+        </label>
+        <br>
+        <label for="102">
+        <input type="radio"value="classXI"name="class"id="102">classXI<!--if name is same we can chosse any one-->
+       </label>
+      <br>
+      <h2>selecte your fav subject</h2>
+     <lable for ="maths">
+        <input type="checkbox"value="maths"name="subject"id="id1">Maths<!--checkbox used for to click multiple option-->
+     </lable>
+      <br>
+      <lable for ="phy">
+        <input type="checkbox"value="phy"name="subject"id="id2">physics
+     </lable>
+     <br>
+     <lable for ="chem">
+        <input type="checkbox"value="chem"name="subject"id="id3">chemistry
+     </lable>
+     <br>
+     <lable for ="html">
+        <input type="checkbox"value="html"name="subject"id="id4">html
+     </lable>
+     <br>
+     <br>
+     <textarea name="feedback"id="101"placeholder="please give your opnion here"rows=5 >feedback</textarea>
+    <br>
+    <br>
+     <select name ="options">
+        <option value="Delhi">Delhi</option>
+        <option value="Bihar">Bihar</option>
+        <option value="Kolkata">Kolkata</option>
+    </select>
+    <br>
+    <br>
+    <input type="submit"value="submit">
+   </form>
+   <hr>
+   <form action="https://www.youtube.com/results?search_query">
+   <input type="text"placeholder="search in youtube"name="search_query">
+   <button>search</button>
+   </form>
+</body>
+</html>

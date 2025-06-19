@@ -1,0 +1,42 @@
+#navbar{
+    height:60px;
+    background-color:#0f1111;
+    border: white ;
+    border-width: 20px;
+    
+}
+#logo{
+    font-size: 25px;
+    color: orange;
+    text-decoration: none;
+}
+a{
+    color: white;
+    margin-right: 200px;
+}
+button{
+    background-color: orange;
+    color: white;
+}
+.content{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+#id1{
+    background-color:rgba(00, 00, 255, 0.5);
+}
+#id2{
+    background-color: rgba(255, 00, 00, 0.5);
+}
+#id3{
+    background-color: rgba(00,255,00,0.5);
+}
+footer{
+    background-color: #0f1111;
+    color: aliceblue;
+    text-align: center;
+}
+#content{
+    height: 400px;
+}

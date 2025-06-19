@@ -1,0 +1,31 @@
+div{
+    height: 100px;
+    width: 100px;
+    border:  10px solid cadetblue;
+    display: inline-block;
+}
+#box1{
+    position: static;/*defalut position here we can't use z-index property*/
+    /* top bottom left right does't work for  static*/
+    background-image: url("animal.jpg");
+}
+#box2{
+    background-image: url(animal.jpg);
+    background-size: cover;
+    position :absolute ;/*relative to the parent*/
+    position:relative;/*apne position se shift hota hai*/
+    top: 20px;
+    left: 10px;
+}
+
+#box4{
+    position: fixed;/*fixed the element always their  in that page*/
+    position: sticky;/*fixed element but when the element appar then only*/
+    z-index: -1;/*in case of overlappin hows ever value will be less that will go in backword */
+}
+body{
+    background-image: url(animal.jpg);
+    background-size: cover;/*cover the hole page no white space will be left*/
+    background-size:contain;/*full image will come and in left space image will be repeat*/
+     background-size:auto/*only some image come to screen*/
+}
